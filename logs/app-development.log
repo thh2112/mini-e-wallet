@@ -1,0 +1,5 @@
+2026-10-13T22:24:34.037+0700	INFO	initialize/init.go:21	Logger initialized
+2026-10-13T22:24:34.067+0700	INFO	initialize/database.go:53	Database initialized
+2026-10-13T22:24:34.067+0700	INFO	initialize/database.go:62	Database initialized
+2026-10-13T22:24:34.076+0700	INFO	initialize/redis.go:33	Redis connected
+2026-10-13T22:24:34.076+0700	INFO	api/main.go:34	Server is running on port 2612

@@ -1,0 +1,26 @@
+server:
+  port: 2612
+  mode: "development"
+  read_timeout: 30
+  write_timeout: 30
+  idle_timeout: 30
+
+database:
+  url: "postgres://postgres:admin@localhost:5432/e-wallet-ledger-service?sslmode=disable"
+  max_idle_conns: 10
+  max_open_conns: 100
+  conn_max_lifetime: 1h
+
+redis:
+  url: "redis://localhost:6379/0"
+
+log:
+  filename: "logs/app-development.log"
+  max_size: 10
+  max_backups: 5
+  max_age: 7
+  compress: false
+
+kafka:
+  brokers: "localhost:29092"
+  group_id: "core-ledger-service"
